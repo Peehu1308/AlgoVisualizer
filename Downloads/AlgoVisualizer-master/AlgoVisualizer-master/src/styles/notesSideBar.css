@@ -7,6 +7,7 @@
   padding: 2rem 1.8rem;  
   height: 100vh;
   background-color: #fff;
+  /* background-color: green; */
   color: #121212;
   border-right: 1px solid #222;
   transform: translateX(-300%);
@@ -44,6 +45,7 @@
   align-items: center;
   padding: 1rem;
   border-bottom: 1px solid #2d2d2d;
+  flex-direction: row;
 }
 .sidebar-title {
   display: flex;
@@ -53,13 +55,21 @@
   white-space: nowrap;
 }
 .close-btn {
-  background: none;
+  background: transparent !important;
   border: none;
   color: #ccc;
   font-size: 1.2rem;
   cursor: pointer;
   display: block;
 }
+.close-btn:hover {
+  /* color: #fff; */
+  background: transparent !important;
+}
+button{
+  background-color: none !important;
+}
+
 .menu-btn {
   position: absolute;
   top: 4rem;

@@ -61,7 +61,8 @@ const JavaSidebar = ({
       <aside className={`sidebar ${isOpen ? "open" : "close"}`}>
         <div className="sidebar-header">
           <h2 className={`${theme === 'dark' ? '!text-gray-50' : '!text-gray-900'} whitespace-nowrap 'sidebar-title'`}>
-            <FaBook className="mr-2 text-indigo-400" /> Java Topics
+            <FaBook className="mr-2 text-indigo-400" />
+             Java Topics
           </h2>
           <button className="close-btn" onClick={onClose}>
             <FaTimes />
